@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T13:12:57.862Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="F2gmtA3GqJa-yPPGdvfE" version="24.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-12T13:14:08.684Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Q-51ZwRowqCyTn0l3VzT" version="24.5.3" type="github" pages="2">
   <diagram name="Video Capture Pipelines" id="6-lmW0DENHbqFQVKjy48">
-    <mxGraphModel dx="1497" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+    <mxGraphModel dx="1778" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,7 +311,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M8LT-Up-IhUdOsbUWQ5h-5" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1310" width="700" height="240" as="geometry" />
+          <mxGeometry x="30" y="1310" width="700" height="200" as="geometry" />
         </mxCell>
         <mxCell id="M8LT-Up-IhUdOsbUWQ5h-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-5">
           <mxGeometry width="700" height="40" as="geometry" />
@@ -358,36 +358,23 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="M8LT-Up-IhUdOsbUWQ5h-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-5">
+        <mxCell id="VqdM6QJ_6O4Pu0VOpx5q-174" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-5">
           <mxGeometry y="120" width="700" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M8LT-Up-IhUdOsbUWQ5h-16" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Hls Rfc4175 Packetizer&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-15">
+        <mxCell id="VqdM6QJ_6O4Pu0VOpx5q-175" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Hls Vid Dma&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VqdM6QJ_6O4Pu0VOpx5q-174">
           <mxGeometry width="190" height="40" as="geometry">
             <mxRectangle width="190" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;a href=&quot;https://github.com/cemkayhan/hls_rfc4175.git&quot;&gt;https://github.com/cemkayhan/hls_rfc4175.git&lt;/a&gt;" link="https://github.com/cemkayhan/hls_rfc4175.git" id="M8LT-Up-IhUdOsbUWQ5h-17">
-          <mxCell style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-15">
+        <UserObject label="&lt;a href=&quot;https://github.com/cemkayhan/hls_vid_dma.git&quot;&gt;https://github.com/cemkayhan/hls_vid_dma.git&lt;/a&gt;" link="&lt;a style=&quot;forced-color-adjust: none; font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-align: left; background-color: rgb(251, 251, 251);&quot; href=&quot;https://github.com/cemkayhan/hls_vid_dma.git&quot;&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 15px;&quot;&gt;https://github.com/cemkayhan/hls_vid_crop.git&lt;/font&gt;&lt;/a&gt;" id="VqdM6QJ_6O4Pu0VOpx5q-176">
+          <mxCell style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VqdM6QJ_6O4Pu0VOpx5q-174">
             <mxGeometry x="190" width="510" height="40" as="geometry">
               <mxRectangle width="510" height="40" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="VqdM6QJ_6O4Pu0VOpx5q-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-5">
-          <mxGeometry y="160" width="700" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="VqdM6QJ_6O4Pu0VOpx5q-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Hls Hd Sdi Packetizer&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VqdM6QJ_6O4Pu0VOpx5q-2">
-          <mxGeometry width="190" height="40" as="geometry">
-            <mxRectangle width="190" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VqdM6QJ_6O4Pu0VOpx5q-4" value="&lt;a href=&quot;https://github.com/cemkayhan/hls_hd_sdi.git&quot;&gt;https://github.com/cemkayhan/hls_hd_sdi.git&lt;/a&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="VqdM6QJ_6O4Pu0VOpx5q-2">
-          <mxGeometry x="190" width="510" height="40" as="geometry">
-            <mxRectangle width="510" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="M8LT-Up-IhUdOsbUWQ5h-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-5">
-          <mxGeometry y="200" width="700" height="40" as="geometry" />
+          <mxGeometry y="160" width="700" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M8LT-Up-IhUdOsbUWQ5h-19" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Video Frame Buffer Write&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="M8LT-Up-IhUdOsbUWQ5h-18">
           <mxGeometry width="190" height="40" as="geometry">
