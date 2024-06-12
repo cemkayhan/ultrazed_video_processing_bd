@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T11:49:06.295Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="tVEbXtqvWB9TEI-NV9pB" version="24.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-12T12:00:23.309Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="8_S9UhKb4tqYRPc64ARW" version="24.5.3" type="github" pages="2">
   <diagram name="Video Capture Pipelines" id="6-lmW0DENHbqFQVKjy48">
-    <mxGraphModel dx="1673" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,7 +310,7 @@
             <mxPoint x="1740" y="1029.5800000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B2pVNI5rbinglzpYVRjI-3" value="&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;VIDEO DMA&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="B2pVNI5rbinglzpYVRjI-3" value="&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;HLS VIDEO DMA&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="1290" width="170" height="90" as="geometry" />
         </mxCell>
         <UserObject label="hls_vid_dma.git" link="https://github.com/cemkayhan/hls_vid_dma.git" id="B2pVNI5rbinglzpYVRjI-5">
@@ -324,6 +324,46 @@
         <UserObject label="hls_vid_crop.git" link="https://github.com/cemkayhan/hls_vid_crop.git" id="B2pVNI5rbinglzpYVRjI-7">
           <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
             <mxGeometry x="265" y="1330" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B2pVNI5rbinglzpYVRjI-9" value="&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;HLS VIDEO BROADCASTER&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1290" width="170" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="hls_vid_broadcaster.git" link="https://github.com/cemkayhan/hls_vid_broadcaster.git" id="B2pVNI5rbinglzpYVRjI-11">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+            <mxGeometry x="445" y="1330" width="160" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B2pVNI5rbinglzpYVRjI-12" value="&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;HLS RFC4175 PACKETIZER&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1290" width="170" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="hls_rfc4175.git" link="https://github.com/cemkayhan/hls_rfc4175.git" id="B2pVNI5rbinglzpYVRjI-13">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+            <mxGeometry x="665" y="1330" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B2pVNI5rbinglzpYVRjI-14" value="&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;HLS HD SDI PACKETIZER&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1290" width="170" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="hls_hd_sdi.git" link="https://github.com/cemkayhan/hls_hd_sdi.git" id="B2pVNI5rbinglzpYVRjI-15">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+            <mxGeometry x="865" y="1330" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B2pVNI5rbinglzpYVRjI-16" value="&lt;div&gt;&lt;div&gt;VIDEO FRAMEBUFFER WRITE&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1290" width="210" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="v-frmbuf.html" link="https://www.xilinx.com/products/intellectual-property/v-frmbuf.html" id="B2pVNI5rbinglzpYVRjI-17">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+            <mxGeometry x="1320" y="1330" width="110" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B2pVNI5rbinglzpYVRjI-18" value="&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;HLS PARALLEL VIDEO CAPTURE&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;horizontal=1;fontSize=12;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1290" width="210" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="hls_parallel_vid_capture.git" link="https://github.com/cemkayhan/hls_parallel_vid_capture.git" id="B2pVNI5rbinglzpYVRjI-19">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" vertex="1" parent="1">
+            <mxGeometry x="1045" y="1330" width="180" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
