@@ -397,37 +397,37 @@
         <mxCell id="Cuqc_fGQZrPboD5X2iYi-1" value="" style="strokeWidth=2;html=1;shape=stencil(vVVBboMwEHyNr5Wxlao9Rm56zKWHnB3iFivBRsZJ2t938QYVAiTgoEpIaGfwzK49woSLMpOFIowamSvC3whjS2Osl15bAzADAF4ZUq8vWJ6xTCjFWpaFSj2CJ+m03B4UMqV3dq/OeucvEtpkymlfsXxF6BK+qR4uUmsMiIBt2WIaPIhJbWAt/UYx+rRAm59LjVUBDrnyyrXQvwnXCBD2Hu2UjHP6iHBqT1T73nPaTHdK4pxWDzuNPKWHjcYe0oARF4AMxZKLrUz3X84eza63vUJWke8QNZ3bk2r0TWnfFvWPXksctGlILOZW4BES13PEaMzQxpXE8wyTxGhMaiOkrROagA4kjYtP69SNCOLP94bjpIz+88n278fd0cKyzr4EFK+6APwC);align=left;labelPosition=right;pointerEvents=1;fillStyle=auto;direction=west;" parent="1" vertex="1">
           <mxGeometry x="290" y="130" width="50" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="dPFkVcEwNKsdL1XxBiBK-1" value="CAPTURE PIPELINE 0&lt;div&gt;HLS VIDEO DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="dPFkVcEwNKsdL1XxBiBK-1" value="VIDEO MIXER DISPLAY PIPELINE 0 HLS VIDEO DMA 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="220" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="onbo51Ai-NBnSgRDGr9o-1" value="CAPTURE PIPELINE 1&lt;div&gt;HLS VIDEO DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="onbo51Ai-NBnSgRDGr9o-1" value="VIDEO MIXER DISPLAY PIPELINE 0 HLS VIDEO DMA 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="330" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="onbo51Ai-NBnSgRDGr9o-2" value="CAPTURE PIPELINE 2&lt;div&gt;HLS VIDEO DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="onbo51Ai-NBnSgRDGr9o-2" value="VIDEO MIXER DISPLAY PIPELINE 0 HLS VIDEO DMA 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="440" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-O9B9WAjwIJygnb4wsjp-1" value="VIDEO MIXER 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="370" y="330" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8j1ZB0D4zgJG1skFWnXS-1" value="&lt;div&gt;VIDEO MIXER 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;VIDEO FRAME BUFFER WRITE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="8j1ZB0D4zgJG1skFWnXS-1" value="H265 DISPLAY PIPELINE 6 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="580" y="330" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8j1ZB0D4zgJG1skFWnXS-2" value="" style="strokeWidth=2;html=1;shape=stencil(vVVBboMwEHyNr5Wxlao9Rm56zKWHnB3iFivBRsZJ2t938QYVAiTgoEpIaGfwzK49woSLMpOFIowamSvC3whjS2Osl15bAzADAF4ZUq8vWJ6xTCjFWpaFSj2CJ+m03B4UMqV3dq/OeucvEtpkymlfsXxF6BK+qR4uUmsMiIBt2WIaPIhJbWAt/UYx+rRAm59LjVUBDrnyyrXQvwnXCBD2Hu2UjHP6iHBqT1T73nPaTHdK4pxWDzuNPKWHjcYe0oARF4AMxZKLrUz3X84eza63vUJWke8QNZ3bk2r0TWnfFvWPXksctGlILOZW4BES13PEaMzQxpXE8wyTxGhMaiOkrROagA4kjYtP69SNCOLP94bjpIz+88n278fd0cKyzr4EFK+6APwC);align=left;labelPosition=right;pointerEvents=1;fillStyle=auto;direction=west;" parent="1" vertex="1">
           <mxGeometry x="290" y="460" width="50" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="8j1ZB0D4zgJG1skFWnXS-3" value="CAPTURE PIPELINE 3&lt;br&gt;&lt;div&gt;HLS VIDEO DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="8j1ZB0D4zgJG1skFWnXS-3" value="VIDEO MIXER DISPLAY PIPELINE 1 HLS VIDEO DMA 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="550" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8j1ZB0D4zgJG1skFWnXS-4" value="CAPTURE PIPELINE 4&lt;br&gt;&lt;div&gt;HLS VIDEO DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="8j1ZB0D4zgJG1skFWnXS-4" value="VIDEO MIXER DISPLAY PIPELINE 1 HLS VIDEO DMA 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="660" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8j1ZB0D4zgJG1skFWnXS-5" value="CAPTURE PIPELINE 5&lt;br&gt;&lt;div&gt;HLS VIDEO DMA&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="8j1ZB0D4zgJG1skFWnXS-5" value="VIDEO MIXER DISPLAY PIPELINE 1 HLS VIDEO DMA 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="770" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8j1ZB0D4zgJG1skFWnXS-6" value="VIDEO MIXER 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="370" y="660" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8j1ZB0D4zgJG1skFWnXS-7" value="&lt;div&gt;VIDEO MIXER 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;VIDEO FRAME BUFFER WRITE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="8j1ZB0D4zgJG1skFWnXS-7" value="H265 DISPLAY PIPELINE 7 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="580" y="660" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1SWwR0eKbvkPVFFCbljl-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
