@@ -390,7 +390,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EXZSbk6zOyZr9hE7xJdf" name="Video Mixer">
-    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -441,6 +441,42 @@
             <mxPoint x="520" y="689.5" as="sourcePoint" />
             <mxPoint x="570" y="689.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvJuydhQw6qHch6XnXW-1" value="HLS VIDEO BROADCASTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvJuydhQw6qHch6XnXW-2" value="HLS VIDEO BROADCASTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvJuydhQw6qHch6XnXW-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="359.5" as="sourcePoint" />
+            <mxPoint x="780" y="359.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvJuydhQw6qHch6XnXW-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="689.5" as="sourcePoint" />
+            <mxPoint x="780" y="689.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_2bSJPWSt48fkkqC3Tm4-1" value="" style="strokeWidth=2;html=1;shape=stencil(rZTBboMwDIafJtcpkDGtxyprj7vssHNKvRG1JChk7fb2M3HRoJS0hUlIkX+T/4vtKEzIulAVsJQbVQITLyxNl8ZYr7y2BuUUBVwKSi2eKTxSmHBOsaoryD2JB+W02uyBMrV3dgdHvfUnC20KcNo3WbFifIn/NJ+QuTUGTRBb9zKdPJopbXAv/yYz/pAR5ucUU1QhoQQPrqf+VfhKAkvXk0nJbaS3CaR+RS33Gun9flIyjbSaS7q1dyMgIVEZuy1CblS++3T2y2wvHq9SzU0cJNp0aQ/QOTc/m0as9NZir03HIvtvBzHf4mm+xWKCxXk34x5hzINpBXVkxEJ+WAeR2dNjFCHedTn6xTxms3sat7jcj6ulhW2DvgSVnv4g/AI=);align=left;labelPosition=right;pointerEvents=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="960" y="260" width="50" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_2bSJPWSt48fkkqC3Tm4-2" value="" style="strokeWidth=2;html=1;shape=stencil(rZTBboMwDIafJtcpkDGtxyprj7vssHNKvRG1JChk7fb2M3HRoJS0hUlIkX+T/4vtKEzIulAVsJQbVQITLyxNl8ZYr7y2BuUUBVwKSi2eKTxSmHBOsaoryD2JB+W02uyBMrV3dgdHvfUnC20KcNo3WbFifIn/NJ+QuTUGTRBb9zKdPJopbXAv/yYz/pAR5ucUU1QhoQQPrqf+VfhKAkvXk0nJbaS3CaR+RS33Gun9flIyjbSaS7q1dyMgIVEZuy1CblS++3T2y2wvHq9SzU0cJNp0aQ/QOTc/m0as9NZir03HIvtvBzHf4mm+xWKCxXk34x5hzINpBXVkxEJ+WAeR2dNjFCHedTn6xTxms3sat7jcj6ulhW2DvgSVnv4g/AI=);align=left;labelPosition=right;pointerEvents=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="960" y="590" width="50" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YtoUl4ggGK5btRaQy73L-1" value="RFC4175 DISPLAY PIPELINE 0&lt;div&gt;VIDEO SWITCH&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ru6pKGYC3Fm5mWEfLZs-1" value="HD-SDI DISPLAY PIPELINE 0&lt;div&gt;VIDEO SWITCH&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ru6pKGYC3Fm5mWEfLZs-2" value="RFC4175 DISPLAY PIPELINE 0&lt;div&gt;VIDEO SWITCH&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ru6pKGYC3Fm5mWEfLZs-3" value="HD-SDI DISPLAY PIPELINE 0&lt;div&gt;VIDEO SWITCH&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="760" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
