@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="25.0.3" pages="3">
   <diagram name="Video Capture" id="6-lmW0DENHbqFQVKjy48">
-    <mxGraphModel dx="2868" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -492,6 +492,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="msUS5VUFwxspplUlgwNL-1" value="H265 DISPLAY PIPELINE 0 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msUS5VUFwxspplUlgwNL-2" value="H265 DISPLAY PIPELINE 1 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msUS5VUFwxspplUlgwNL-3" value="H265 DISPLAY PIPELINE 2 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msUS5VUFwxspplUlgwNL-4" value="H265 DISPLAY PIPELINE 3 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msUS5VUFwxspplUlgwNL-5" value="H265 DISPLAY PIPELINE 4 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msUS5VUFwxspplUlgwNL-6" value="H265 DISPLAY PIPELINE 5 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msUS5VUFwxspplUlgwNL-7" value="H265 DISPLAY PIPELINE 6 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="570" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="msUS5VUFwxspplUlgwNL-8" value="H265 DISPLAY PIPELINE 7 VIDEO FRAME BUFFER WRITE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oG24u3HiGQtfkInbgmwx-1" value="AXI-MM INTERCONNECT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="340" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HG96ZgYL-R6rInbtraUQ-1" value="" style="strokeWidth=2;html=1;shape=stencil(vVVBboMwEHyNr5Wxlao9Rm56zKWHnB3iFivBRsZJ2t938QYVAiTgoEpIaGfwzK49woSLMpOFIowamSvC3whjS2Osl15bAzADAF4ZUq8vWJ6xTCjFWpaFSj2CJ+m03B4UMqV3dq/OeucvEtpkymlfsXxF6BK+qR4uUmsMiIBt2WIaPIhJbWAt/UYx+rRAm59LjVUBDrnyyrXQvwnXCBD2Hu2UjHP6iHBqT1T73nPaTHdK4pxWDzuNPKWHjcYe0oARF4AMxZKLrUz3X84eza63vUJWke8QNZ3bk2r0TWnfFvWPXksctGlILOZW4BES13PEaMzQxpXE8wyTxGhMaiOkrROagA4kjYtP69SNCOLP94bjpIz+88n278fd0cKyzr4EFK+6APwC);align=left;labelPosition=right;pointerEvents=1;fillStyle=auto;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="50" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="HG96ZgYL-R6rInbtraUQ-2" value="vcu" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
